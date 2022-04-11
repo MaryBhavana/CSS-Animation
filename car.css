@@ -1,0 +1,132 @@
+
+html{
+    border-color: white green black orange;
+    border-style: solid;
+    border-width: 10px;
+    height:700px;
+    width:1500px;
+    background-image: url(./sky.jpg);
+
+   
+}
+
+.sun{
+    display: inline-flex;
+    height:100px;
+    width:80px;
+    position: relative;
+    left:1200px;
+    bottom:300px;
+    animation:  sun 50s infinite;
+    animation-direction: reverse;
+    animation-timing-function: linear;
+}
+@keyframes sun{
+    0% {
+        /* transform: translateX(100px); */
+    }
+    100% {
+        /* transform: translateX(100px); */
+    }
+}
+.city{
+    display: inline-flex;
+    width:400px;
+    height:500px;
+    position: relative;
+    top:50px;
+    right:140px;
+    animation: city 10s infinite;
+    animation-timing-function: linear;
+    animation-direction: reverse;
+    animation-duration: 5s;
+}
+@keyframes city{
+0% {
+    left:-100%;
+}
+100%{
+    left:0%;
+}
+}
+
+ .car{
+    display:inline-flex;
+    position: relative;
+    top:70px;
+    right:150px;
+    height: 200px;
+  
+
+}
+.road{
+    display: inline-flex;
+    position:relative;
+    bottom: 5px;
+    width:800px;
+    animation: city 10s infinite;
+    animation-timing-function: linear;
+    animation-direction: reverse;
+} 
+.flag{
+    display: inline-flex;
+    height:80px;
+    right:400px;
+    position: relative;
+    left:320px;
+    bottom:42px;
+}
+.wheel1{
+    display: inline-flex;
+    height: 75px;
+    width: 75px;
+    position: relative;
+    bottom:255px;
+    right:335px;
+    animation: wheels 2s infinite;
+    animation-timing-function: linear;
+}
+.wheel2{
+    display: inline-flex;
+    height: 75px;
+    width: 75px;
+    position: relative;
+    bottom:255px;
+    right:120px;
+    animation: wheels 2s infinite;
+    animation-timing-function: linear;
+}
+@keyframes wheels{
+    to{
+    transform:rotate(360deg);
+}
+}
+.h{
+    color: black;
+    background-color: orange;
+    width:140px;
+    position: relative;
+    bottom:830px;
+    display: inline-flex;
+}
+.i{
+    color: black;
+    background-color: white;
+    width:330px;
+    position: relative;
+    bottom:830px;
+    display: inline-flex;
+}
+.d{
+    color: black;
+    background-color:green;
+    width:90px;
+    position: relative;
+    bottom:830px;
+    display: inline-flex;
+}
+.ss{
+    position: relative;
+    left:500px;
+    font-size: 40px;
+}

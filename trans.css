@@ -1,0 +1,41 @@
+html{
+    background-color: yellow;
+}
+.flex-container{
+    display: inline-flex;
+    flex-flow: column;
+    justify-items: center;
+    justify-content: center;
+    position: relative;
+    left:650px;
+}
+.s{
+    display: inline-flex;
+    flex-flow: column;
+    background-color: green;
+    width:100px;
+    height:100px;
+    transition:all 2s linear ;  
+}
+.flex1:hover{
+    width:250px;
+}
+.flex2:hover{
+    width:250px;
+    height: 250px;
+}
+.flex3:hover{
+    width:350px;   
+}
+.flex4:hover{
+    width:250px;   
+}
+.flex5:hover{
+    width:300px;   
+}
+.flex6:hover{
+    width:280px;   
+}
+.flex7:hover{
+    width:350px;   
+}

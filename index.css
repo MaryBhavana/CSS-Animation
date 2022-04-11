@@ -1,0 +1,120 @@
+html{
+    background-color: yellow;
+}
+.flex-container{
+    display: inline-flex;
+    flex-direction: row;
+    justify-items: center;
+    justify-content: center;
+    position: relative;
+    left:450px;
+}
+
+.flex-item1{
+    background-color: cornflowerblue;
+    width:100px;
+    height:100px;
+    display: inline-flex;
+    flex-direction: row;
+    margin:40px;
+    animation: smily 2s infinite;
+    animation-direction: alternate;
+    
+}
+.flex-item2{
+    background-color: violet;
+    width:100px;
+    height:100px;
+    display: inline-flex;
+    flex-direction: row;
+    margin:40px;
+    animation: mom 4s infinite;
+    animation-timing-function: linear;
+    animation-direction: alternate-reverse;
+
+}
+.flex-item3{
+    background-color: cornflowerblue;
+    width:100px;
+    height:100px;
+    display: inline-flex;
+    flex-direction: row;
+    margin:40px;
+    animation: papa 4s infinite;
+    animation-timing-function: linear;
+    animation-direction: alternate-reverse;
+}
+.flex-item4{
+    background-color: cornflowerblue;
+    border: 2px solid blue ;
+    width:100px;
+    height:100px;
+    display: inline-flex;
+    flex-direction: row;
+    margin:40px;
+    animation: mama 2s infinite;
+    animation-timing-function: linear;
+    animation-direction: alternate-reverse;
+
+}
+.flex-item5{
+    background-color: red;
+    border: 2px solid brown;
+    width:100px;
+    height:100px;
+    display: inline-flex;
+    flex-direction: row;
+    margin:40px;
+    animation: pa 2s infinite;
+    animation-timing-function: linear;
+    animation-direction: alternate-reverse;
+}
+.flex-item6{
+    background-color: green;
+    border: 2px solid  darkgreen;
+    width:100px;
+    height:100px;
+    display: inline-flex;
+    flex-direction: row;
+    margin:40px;
+    animation: ba 4s infinite;
+    animation-timing-function: linear;
+    animation-direction: alternate-reverse;
+}
+@keyframes smily{
+    0% {
+     transform:skewX(20deg);
+    }
+    100% {
+        transform:skewX(-20deg);   
+    }
+}
+@keyframes papa{
+       to{
+           transform: rotate(360deg);
+       }
+    }
+       
+@keyframes mom{
+   0% {
+       transform: skewY(20deg);
+    }
+    100%{
+        transform: skewY(-20deg);  
+    }
+}
+@keyframes mama{
+to{
+    transform: scaleY(1.2);
+}
+}
+@keyframes pa{
+    to{
+        transform: scaleX(1.2);
+    }
+}
+@keyframes ba{
+    to{
+transform: rotate(90deg);
+    }
+}
